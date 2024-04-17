@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "daily_infos",
+  "info": {
+    "singularName": "daily-info",
+    "pluralName": "daily-infos",
+    "displayName": "Daily Info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "author": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "url": {
+      "type": "text"
+    },
+    "urlToImage": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
